@@ -1,0 +1,6 @@
+{
+  "/api/*": "/$1",
+  "/users/:user": "/user_details?user_id=:user&singular=1",
+  "/avatar/:user": "/user_avatar?user_id=:user&singular=1",
+  "/groups/:user": "/user_groups?user_id=:user&singular=1"
+}
